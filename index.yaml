@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  pleroma:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-30T22:43:30.310093346Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.9.4
+    description: A Helm chart for Kubernetes
+    digest: 4039ae657f024e3d77cbea3eef7231878adca3c9e79a7937e5ecfee49279d468
+    name: pleroma
+    type: application
+    urls:
+    - https://github.com/highb/pleroma-helm/releases/download/pleroma-0.2.0/pleroma-0.2.0.tgz
+    version: 0.2.0
+generated: "2022-05-30T22:43:30.310104646Z"
